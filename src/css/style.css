@@ -8,7 +8,7 @@
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: local("Almarai-Regular"), url(../../public/fonts/Almarai-Regular.ttf) format('truetype');
+        src: local("Almarai-Regular"), url(fonts/Almarai-Regular.ttf) format('truetype');
     }
 }
 

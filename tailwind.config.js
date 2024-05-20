@@ -2,11 +2,13 @@
 export default {
     content: ["./src/**/*.{js,ts,jsx,tsx,html}"],
     theme: {
-        extend: {},
-        colors: {
-            primary: "#bc44dd",
-            secondray: "#7e32dc",
+        extend: {
+            colors: {
+                primary: "#bc44dd",
+                secondray: "#7e32dc",
+            },
         },
+
         container: {
             center: true,
             padding: "2rem",
