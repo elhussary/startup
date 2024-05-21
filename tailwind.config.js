@@ -2,12 +2,7 @@
 export default {
     content: ["./src/**/*.{js,ts,jsx,tsx,html}"],
     theme: {
-        extend: {
-            colors: {
-                primary: "#bc44dd",
-                secondray: "#7e32dc",
-            },
-        },
+        extend: {},
 
         container: {
             center: true,
@@ -17,5 +12,5 @@ export default {
             },
         },
     },
-    plugins: [],
+    plugins: [require("@tailwindcss/forms")],
 };
